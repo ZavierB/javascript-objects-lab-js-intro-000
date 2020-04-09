@@ -16,7 +16,7 @@ return newObj
 }
 
 function destructivelyDeleteFromObjectByKey(object, key){
-object.key = undefined
-
+var object = []
+object.pop()
 return object
 }
