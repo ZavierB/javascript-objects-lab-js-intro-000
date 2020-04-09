@@ -17,6 +17,6 @@ return newObj
 
 function destructivelyDeleteFromObjectByKey(object, key){
 object = []
-object.shift(1)
+object.shift()
 return object
 }
