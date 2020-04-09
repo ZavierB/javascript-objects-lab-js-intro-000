@@ -17,6 +17,6 @@ return newObj
 
 function destructivelyDeleteFromObjectByKey(object, key){
 object = []
-object.pop()
+object.pop(0)
 return object
 }
