@@ -17,6 +17,6 @@ return newObj
 
 function destructivelyDeleteFromObjectByKey(object, key){
 var object = new Array();
-array.pop
+array.pop()
 return array
 }
