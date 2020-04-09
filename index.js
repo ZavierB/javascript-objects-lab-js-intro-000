@@ -16,8 +16,7 @@ return newObj
 }
 
 function destructivelyDeleteFromObjectByKey(object, key){
-object = {}
-var newObj = {}
-newObj = Object.assign({}, object)
-return object
+var object = new Array();
+array.pop
+return array
 }
