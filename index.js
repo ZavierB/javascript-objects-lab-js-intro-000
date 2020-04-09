@@ -16,6 +16,6 @@ return newObj
 }
 
 function destructivelyDeleteFromObjectByKey(object, key){
-object.assign({},{})
+const object = {}
 return object
 }
